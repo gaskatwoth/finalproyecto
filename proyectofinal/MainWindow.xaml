@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Ventana Nueva" HorizontalAlignment="Left" Margin="353,243,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.8,1.508" Click="Button_Click_1"/>
+
     </Grid>
 </Window>
