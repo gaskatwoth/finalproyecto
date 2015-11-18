@@ -11,10 +11,12 @@ namespace proyectofinal.mibd
     {
         public DbSet<classejemplo> classejemplos { get; set; }
         public DbSet<Proveedor> Proveedores { get; set; }
-        public DbSet<CuentaProveedor> CuentaProveedores { get; set; }
         public DbSet<Asistente> Asistentes { get; set; }
         public DbSet<Servicio> Servicios { get; set; }
-        public DbSet<Factura> Facturas{ get; set; }
+        public DbSet<Factura> Facturas { get; set; }
+        public DbSet<CuentaProveedor> CuentaProverdores { get; set; }
+
+        
 
     }
 }

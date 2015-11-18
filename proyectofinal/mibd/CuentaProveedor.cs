@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations;
 namespace proyectofinal
 {
-    class CuentaProveedor
+   public  class CuentaProveedor
     {
         
 
-        public int IdCuenta { get; set; }
+        [Key]public int IdCuenta { get; set; }
         public string Usuario { get; set; }
         public string contrasena { get; set; }
-        public string EstadoCuenta { get; set; }
-
+ 
     }
 }

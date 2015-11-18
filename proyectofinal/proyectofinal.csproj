@@ -89,6 +89,18 @@
     <Compile Include="Migrations\201511131626404_classejemplo.Designer.cs">
       <DependentUpon>201511131626404_classejemplo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511181607044_ProveedorTabla.cs" />
+    <Compile Include="Migrations\201511181607044_ProveedorTabla.Designer.cs">
+      <DependentUpon>201511181607044_ProveedorTabla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511181641070_FkFacturas.cs" />
+    <Compile Include="Migrations\201511181641070_FkFacturas.Designer.cs">
+      <DependentUpon>201511181641070_FkFacturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511181644553_serviciosPk.cs" />
+    <Compile Include="Migrations\201511181644553_serviciosPk.Designer.cs">
+      <DependentUpon>201511181644553_serviciosPk.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="nuevaVentana.xaml.cs">
       <DependentUpon>nuevaVentana.xaml</DependentUpon>
@@ -108,6 +120,15 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201511131626404_classejemplo.resx">
       <DependentUpon>201511131626404_classejemplo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511181607044_ProveedorTabla.resx">
+      <DependentUpon>201511181607044_ProveedorTabla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511181641070_FkFacturas.resx">
+      <DependentUpon>201511181641070_FkFacturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511181644553_serviciosPk.resx">
+      <DependentUpon>201511181644553_serviciosPk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
